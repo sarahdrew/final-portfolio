@@ -22,10 +22,21 @@
     left: 0;
     right: 0;
     z-index: 10;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Fahkwang', sans-serif;
     text-align: center;
   }
   
+  a:link {
+    color: white;
+  }
+  a:visited {
+    color: #475E7B;
+  }
+  a:hover  {
+    color: #FA8185;
+    font-size: 20px;
+  }
+
  
   #purple-portrait{
     width: 30%;
@@ -45,6 +56,7 @@
     font-size: 30px;
     color: #f5c9a7;
     background-color: rgb(80, 97, 119);
+    border: 1px solid rgb(61, 74, 90);
     text-align: center;
     
   }
@@ -58,7 +70,7 @@
 
   .full-bio{
     padding: 20px;
-    text-align: center;
+    
   }
 
  
@@ -79,5 +91,5 @@
   .project-desc{
     padding: 15px;
     float: left;
+    
   }
-
